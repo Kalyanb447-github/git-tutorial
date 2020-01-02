@@ -1,0 +1,60 @@
+//List all the branch
+git branch
+//green branch showing which branch is running
+
+//create ne branch
+git branch [new branch name]
+for example
+git branch test1
+//or
+//go and open test1 branch -b means branch
+git checkout -b test1
+
+//switch to another branch [ master to  test1]
+git checkout test1
+
+//add in a bucket
+git add .
+
+//make chanhges
+git commmit
+//or 
+//make chanhges
+git commmit -m "write something what ypu have done"
+
+// to show  all the changes
+git log 
+
+//Merge two branches
+step 1) go to base  branchwhere you want  merge 
+     git checkout master
+step 2)enter name after the merge 
+     git merge test1    
+//it will open text editor
+step  3)  save  the changes
+     :wq  
+     
+//puss or send data git server
+//t will push the current working branch
+ git push
+
+//if ypu  want to push local branch 
+ git checkout test1
+ git push
+//if local branch is not creted on git server then it wiil appear a commend
+ git push --set-upstream origin test1
+ 
+ //delete a branch -d means dummy
+ git checkout -d test1 
+  
+//again switch to another branch [ master to  test1]
+git checkout test1
+
+//open local branch
+git checkout local
+
+//get branch from server
+git pull origin local
+//reset if not working 
+git reset --hard
+
