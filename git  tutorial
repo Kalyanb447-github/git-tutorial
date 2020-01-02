@@ -37,6 +37,7 @@ step  3)  save  the changes
 //puss or send data git server
 //t will push the current working branch
  git push
+ 
 
 //if ypu  want to push local branch 
  git checkout test1
